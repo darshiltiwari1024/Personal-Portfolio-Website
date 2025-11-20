@@ -1,0 +1,57 @@
+/* This sets the background color of the whole page */
+body {
+    background-color: #f4f4f4; /* Light Grey */
+    font-family: Arial, sans-serif; /* Easy to read font */
+}
+
+/* This is the white sheet of paper in the middle */
+.main-container {
+    width: 80%;           /* Takes up 80% of the screen width */
+    margin: auto;         /* Centers the container */
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc; /* Thin grey border */
+}
+
+/* Header Styling */
+header {
+    text-align: center;   /* Centers text */
+    background-color: #333; /* Dark Grey background */
+    color: white;         /* White text */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* General spacing for sections */
+.content {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee; /* Adds a line under each section */
+    padding-bottom: 10px;
+}
+
+/* Headings styling */
+h2 {
+    color: #0066cc; /* Blue color for headings */
+}
+
+/* List styling (Bullet points) */
+ul {
+    margin-left: 20px;
+}
+
+/* Project Box styling */
+.project-box {
+    background-color: #e6f2ff; /* Very light blue */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
